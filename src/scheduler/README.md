@@ -1,1 +1,0 @@
-Initializing scheduler directory. Remove this upon adding an example.

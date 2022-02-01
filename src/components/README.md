@@ -1,1 +1,0 @@
-Initializing components directory. Remove this upon adding an example.
