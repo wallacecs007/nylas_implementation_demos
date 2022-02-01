@@ -1,0 +1,1 @@
+Initializing contacts directory. Remove this upon adding an example.
