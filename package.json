@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^11.0.0",
+    "dotenv": "^15.0.0",
     "nylas": "6.2.0-canary.0"
   }
 }

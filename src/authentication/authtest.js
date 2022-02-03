@@ -20,7 +20,7 @@ async function auth_call() {
             password: process.env.EMAIL_PASSWORD,
             eas_server_host: "outlook.com"
         },
-        scopes: 'email.read_only,calendar.read_only,contacts.read_only'
+        scopes: ['email.read_only,calendar.read_only,contacts.read_only']
     }).then(res => {
         code = res.code;
     })
