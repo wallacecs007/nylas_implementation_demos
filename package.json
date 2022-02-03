@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^11.0.0",
-    "nylas": "^5.10.4"
+    "nylas": "6.2.0-canary.0"
   }
 }
