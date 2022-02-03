@@ -1,0 +1,7 @@
+{
+    "SECRET_KEY": "123456789",
+    "NYLAS_OAUTH_CLIENT_ID": "3z36vicndk2ecd6wt5xm1qti6",
+    "NYLAS_OAUTH_CLIENT_SECRET": "ba4mhj9fcx44pcx1qyc9ocpvo",
+    "CELERY_BROKER_URL": "redis://localhost",
+    "CELERY_TASK_ALWAYS_EAGER": false
+  }
