@@ -11,15 +11,15 @@ const nylas = Nylas.with(process.env.ACCESS_TOKEN);
 
 async function messageTracking(){
 
-    const draft = new Draft(nylas, {
-        to: [
-            { name: 'Chase', email: 'chase.w@nylas.com' }
-        ],
-        subject: 'Tracking Demo with Chase 2',
-        body: 'This email was sent using the Nylas email API. Visit https://nylas.com for details.'
-    });
+    const draft = new Draft(nylas);
 
-    await draft.save()
+    draft.to = [
+        { name: 'Chase', email: 'chase.w@nylas.com' }
+    ];
+
+    draft.subject = 'Tracking Demo with Chase 2';
+
+    draft.body = 'This email was sent using the Nylas email API. Visit https://nylas.com for details.';
 
     await draft.send({
         'opens': true,
